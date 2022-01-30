@@ -16,7 +16,7 @@
     );
   }
   /* container */
-  .container {
+.container {
     width: 40%;
     min-width: 500px;
     position: absolute;
@@ -26,7 +26,7 @@
     padding: 30px 40px;
   }
    
-  #newtask{
+#newtask{
     position: relative;
     background-color: #ffffff;
     padding: 30px 20px;
@@ -76,33 +76,16 @@
     width: 100%;
     position: relative;
 }
-.task{
-    background-color: #ffffff;
-    height: 50px;
-    padding: 5px 10px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 2px solid #d1d3d4;
-    cursor: pointer;
-}
-.task span{
-    font-family: 'Poppins',sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-}
 
   
   
-  ul {
+ul {
     list-style-type: none; /* get rid of bullet points on side of list items */
-  }
+}
    
-  /* todo-items */
+
   
-  /* each li with class="item" */
-  .item {
+.item {
     background-color: #ffffff;
     height: 50px;
     padding: 5px 10px;
@@ -113,23 +96,23 @@
     border-bottom: 2px solid #d1d3d4;
     cursor: pointer;
     
-  }
-  .todo-items {
+}
+.todo-items {
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
     font-weight: 500; 
     
-  }
+}
   
  
   
-  /* item style end */
   
-  .checkbox {
+  
+.checkbox {
     margin-right: 10px;
-  }
+}
   
-  .delete-button {
+.delete-button {
     background-color: #b5179e;
     color: #ffffff;
     height: 100%;
@@ -139,12 +122,12 @@
     cursor: pointer;
     outline: none;
     float: right;
-  }
+}
   
-  /* applied when the todo item is checked */
+/* applied when the todo item is checked */
   .checked { 
     text-decoration: line-through;
-  }
+}
   
   
   
